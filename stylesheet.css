@@ -1,0 +1,155 @@
+*{
+	background-color: #ffcccc;
+}
+
+body {
+	width: 850px;
+	margin: auto;
+	font-size: 100%;
+}
+
+body *{
+	background-color: #ffffff;
+}
+
+.topheader img{
+	width: 100%;
+	margin: 0px;
+	border-bottom: solid 4px black;
+}
+
+#home img{
+	width: 100%;
+}
+
+.nav ul ul {
+	display: table;
+	margin: 0px;
+}
+
+.nav ul{
+	display:table;
+	width: 810px;
+	list-style: none;
+	position: relative;
+	display: inline-block;
+	border-bottom: solid 4px black;
+	margin: 0px;
+}
+
+.nav ul li {
+	display:table-cell;
+	float: left;
+	text-align: center;
+	font-size: 1.25em;
+	font-family: "Book Antiqua", Palatino, serif;
+	width:23.2%;
+	margin: 0px;
+	}
+
+.nav ul li a{
+	padding: 5px 10px 5px 10px;
+	display: inline-block;
+	color: #757575;
+	text-decoration: none;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+#facade img {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+span{
+	color: #ff00ff;
+	font-weight: bold;
+}
+
+.about {
+	display: table;
+	width: 100%;
+	margin-right: auto;
+	margin-bottom: 60px;
+}
+
+.about h2{
+	text-align: center;
+}
+
+.about td img {
+	display: table-cell;
+	width: 240px;
+	height: 320px;
+	}
+
+.about td{
+	display:table-cell;
+	width: 65%;
+	padding:0px 0px 10px 20px;
+}
+
+.poetry div *{
+	background-color: #ffffff;
+}
+
+.poetry h2{
+	padding-left: 35px;
+	padding-bottom: 30px;
+}
+
+.poetry h3{
+	text-align: center;
+}
+
+.poetry p{
+	text-align: center;
+}
+
+.poetry h5{
+	text-align: center;
+	padding: 40px 0px;
+}
+
+.facade{
+	display: table;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+.facade td img {
+	display: table-cell;
+	width: 300px;
+	}
+
+.facade td{
+	display:table-cell;
+	width: 20%;
+	padding:0px 10px;
+}
+
+.facade span img{
+	width: 400px;
+}
+
+.contact div *{
+	background-color: #ffffff;
+}
+
+.contact img {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.contact p{
+	text-align: center;
+}
