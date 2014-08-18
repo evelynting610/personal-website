@@ -24,11 +24,10 @@ body *{
 
 .nav ul ul {
 	display: none;
-	margin: 0px;
 }
 
 .nav ul{
-	display:table;
+	display: table;
 	width: 810px;
 	list-style: none;
 	position: relative;
@@ -56,15 +55,57 @@ body *{
 	border-spacing: 0px;
 }
 
+.nav ul li:hover > ul {
+	display:block;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
 
+.nav ul li:hover {
+	color: #ff00ff;
+	font-weight: bold;
+	
+}
 
-.nav ul li: hover>ul{margin: 0px; padding:0px;}
-.nav ul li: hover>ul li {float:none; display: block;}
-.nav ul li: hover>ul li a {color: #666; min-width: 150px;}
-.nav ul li: hover>ul li a:hover{color: #fff;}
+.nav ul li:hover a {
+	color: #ff00ff;
+	font-weight: bold;
+	/*font-size: 1.25em;
+	font-family: "Book Antiqua", Palatino, serif;*/
+}
 
-.nav ul li {position: relative;}
-.nav ul li ul {position: absolute; top: 30px; left: 0px;}
+.nav ul ul {
+	position: absolute;
+	/*width: 25px;*/
+	list-style: none;
+	border-bottom: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: .7em;
+	font-family: "Book Antiqua", Palatino, serif;
+	color: #000000;
+	background-color: #ff00ff;
+	clear: both;
+	z-index: 1;
+}
+
+.nav ul ul li {
+	position: absolute;
+	text-align: center;
+	font-size: 1.25em;
+	font-family: "Book Antiqua", Palatino, serif;
+}
+
+/*.nav ul ul li a {
+	padding: 0px;
+	color: #fff;
+}
+
+.nav ul ul li a:hover {
+	color: #ff00ff;
+	font-weight: bold;
+}*/
 
 #facade img {
 	width: 70%;
@@ -100,10 +141,6 @@ span{
 	display:table-cell;
 	width: 65%;
 	padding:0px 0px 10px 20px;
-}
-
-.poetry div *{
-	background-color: #ffffff;
 }
 
 .poetry h2{
@@ -154,8 +191,69 @@ span{
 	width: 400px;
 }
 
-.contact div *{
-	background-color: #ffffff;
+.windows table{
+	display: table;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.windows td{
+	display: table-cell;
+	width: 33%;
+	padding: 15px 15px;
+}
+
+.windows td img{
+	display: table cell;
+	width: 250px;
+	height: 333px;
+}
+
+.awakening td{
+	display: table-cell;
+	width: 67%;
+	padding: 15px 15px 15px 15px;
+
+}
+
+.awakening td>img{
+	display: table-cell;
+	width: 520px;
+	margin-left: 8px;
+}
+
+.awakening td div img{
+	display: table-cell;
+	float: left;
+	width: 360px;
+	padding-top: 50px;
+}
+
+.awakening span img{
+	width: 240px;
+	margin-right: -29px;
+}
+
+.awakening td div span img{
+	width: 200px;
+}
+
+.quotes h1{
+	text-align: center;
+}
+
+.quotes p{
+	margin: 0px 50px;
+	margin-bottom: 45px;
+}
+
+.quotes img {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 30px;
 }
 
 .contact img {
@@ -168,4 +266,14 @@ span{
 
 .contact p{
 	text-align: center;
+}
+
+#footer{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#footer h4{
+	text-align: center;
+	background-color: #000000;
 }
