@@ -1,1 +1,1 @@
-Website that features my original poetry.  To learn HTML and CSS, I did not use a template but hard-coded everything myself.
+The personal website of Evelyn Ting, dedicated to projects, poetry, pictures, and reflection.  This website was hand-coded with care.
