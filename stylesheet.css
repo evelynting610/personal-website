@@ -61,7 +61,7 @@ body *{
 .nav ul li:hover {
 	color: #ff00ff;
 	font-weight: bold;
-	
+
 }
 
 .nav ul li:hover a {
@@ -110,6 +110,21 @@ span{
 .index #about table{
 	display: table;
 	width: 100%;
+}
+
+.index #link_decoration a:link{
+	color: black;
+	text-decoration: none;
+}
+
+.index #link_decoration a:visited{
+	text-decoration: none;
+}
+
+.index #link_decoration a:hover{
+	text-decoration: none;
+	color: #ff00ff;
+	font-weight: bold;
 }
 
 .index td img {
@@ -290,6 +305,40 @@ button:hover{
 .contact p{
 	text-align: center;
 }
+
+.contact a{
+	color: black;
+}
+
+.contact a:link {
+    text-decoration: none;
+}
+
+.contact a:visited {
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+table.logos{
+	display: table;
+	margin: auto;
+}
+
+.logos td {
+	display: table-cell;
+	width: 25%;
+	padding: 5px 5px;
+}
+
+.logos td img {
+	display: table-cell;
+	height: 32px;
+	width: 32px;
+	padding: 0px;
+	}
 
 #footer{
 	background-color: #000000;
