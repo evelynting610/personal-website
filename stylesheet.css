@@ -334,12 +334,13 @@ button:hover{
 table.logos{
 	display: table;
 	margin: auto;
+	margin-bottom: -10px;
 }
 
 .logos td {
 	display: table-cell;
 	width: 25%;
-	padding: 5px 5px;
+	padding: 0px 5px;
 }
 
 .logos td img {
