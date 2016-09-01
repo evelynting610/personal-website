@@ -315,19 +315,19 @@ button:hover{
 	text-align: center;
 }
 
-.contact a{
+.contact #email a{
 	color: black;
 }
 
-.contact a:link {
+.contact #email a:link {
     text-decoration: none;
 }
 
-.contact a:visited {
+.contact #email a:visited {
     text-decoration: none;
 }
 
-.contact a:hover {
+.contact #email a:hover {
     text-decoration: underline;
 }
 
