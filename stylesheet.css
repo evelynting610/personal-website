@@ -6,10 +6,15 @@ body {
 	width: 850px;
 	margin: auto;
 	font-size: 100%;
+	font-family: Verdana, sans-serif
 }
 
 body *{
 	background-color: #ffffff;
+}
+
+p{
+	font-size: 85%;
 }
 
 .topheader img{
@@ -112,12 +117,18 @@ span{
 	width: 100%;
 }
 
+.index #link_decoration {
+	padding-top: 0px;
+	font-size: 90%;
+}
+
 .index #link_decoration a:link{
 	color: black;
 	text-decoration: none;
 }
 
 .index #link_decoration a:visited{
+	color: black;
 	text-decoration: none;
 }
 
@@ -145,15 +156,16 @@ span{
 	background-color: white;
 	width: 20%;
 	height: 15%;
-	font-family:'Oleo Script', Helvetica, sans-serif;
+	font-family:'Oleo Script', Georgia, serif;
 	font-size: 3em;
-    border-radius: 25px;
-    background-color: transparent;
-    border:none;
+  border-radius: 25px;
+  background-color: transparent;
+  border:none;
+	cursor: pointer;
 }
 
 button:hover{
-	color: #ff00ff;
+	color: #9B59B6;
 }
 
 .projects h3{
